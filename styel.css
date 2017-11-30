@@ -1,0 +1,123 @@
+* {box-sizing: border-box;
+padding: 0px;
+margin: 0px;}
+
+body {margin: auto;
+background: #181818;
+width: 80%;
+}
+
+
+header
+{
+background: #ededed;
+	height: 150px;
+	padding: 10px;
+	
+}
+.header_left {
+	float: left;
+}
+
+
+.header_left img
+{
+	width:  70px;
+	 
+	float: left;
+	
+	border-radius: 50%;
+	margin-left: 30px;
+	margin-top: 13px;
+	
+
+}
+.header_left div{
+	float: left;
+	margin: 20px;
+}
+
+
+
+.header_left div h1
+
+{
+	color: #222;
+	
+}
+.header_left div h2
+
+{
+	color: #222;
+	
+}
+
+.header_right {
+	
+	float: right;
+	padding-right: 20px;
+	margin-top: 20px;
+}
+.header_right div{
+	text-align: left;
+	display: inline-block;
+	
+	
+}
+.cv_content {background: #f3f3f3;
+padding: 20px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #ddd;
+}
+.row
+{
+	
+	padding-top: 20px;
+	overflow: hidden;
+	height: 100px;
+border-bottom: 2px solid red;	
+}
+
+.row:last-child {padding border-bottom: 0px;
+border: none;
+height: 200px;}
+
+
+.row .column_left{width: 30%;
+	float: left;
+	
+	
+}
+.row .column_left h2{color: #333;
+font-size: 20px; font-style: italic;}
+
+
+.row .column_right{width: 70%; 
+	float: left;
+	padding-left: 20px;
+	
+	
+}
+.row .column_right .column_same{
+	width: 33%; 
+	float: left;
+}
+.row .column_right form input{display: block;}
+
+.row .column_right form label{display: block; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
